@@ -1,0 +1,93 @@
+
+#nav{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 77, 0);
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(10, 10, 20);
+}
+h1{
+    margin-top: 90px;
+    color: rgb(246, 145, 37);
+    box-shadow: 0 0 30px rgb(50, 225, 193);
+    font-size: 50px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+p{ 
+    color: rgb(100, 92, 91);
+    font-size: 25px;
+    font-weight: 500;
+}
+li{
+    color: rgb(152, 153, 154);
+    font-size: 20px;
+}
+#details{
+    width: 50%;
+}
+#pic{
+    position: absolute;
+    border-radius: 10px;
+    height: 60%;
+    width: 50%;
+    top: 100px;
+    right: 10px;
+    background-image: url(png-clipart-book-book-child-reading-removebg.png);
+    background-size: cover;
+    background-color: transparent;
+}
+#pic1{
+    position: absolute;
+    border-radius: 10px;
+    height: 60%;
+    width: 50%;
+    top: 630px;
+    right: 10px;
+    background-image: url(png-clipart-group-of-kids-studying-and-learning-together-removebg-preview.png);
+    background-size: cover;
+    background-color: transparent;
+}
+#pic2{
+    position: absolute;
+    border-radius: 10px;
+    height: 80%;
+    width: 50%;
+    top: 1110px;
+    right: 10px;
+    background-image: url(png-transparent-childhood-icons-studying-kids-cartoon-characters-thumbnail-removebg-preview.png);
+    background-size: cover;
+    background-color: transparent;
+}
+h2{
+    color: rgb(76, 121, 149);
+}
+#footter{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(255, 77, 0);
+    height: 10%;
+    justify-content: space-around;
+}
+span{
+    margin-top: 28px;
+    font-size: 17px;
+}

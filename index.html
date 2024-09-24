@@ -3,100 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamefinity</title>
+    <title>Home Section with Slideshow</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-    <div id="nav">
-        <a href="#">Home</a>
-        <a href="#">Games</a>
-        <a href="#">Videos</a>
-        <a href="#">Information</a>
-        <a href="#">Contact Us</a>
-    </div>
-    <div id="details">
-    <h1>WELCOME TO GAMEFINITY EMPOWRING YOUNG MINDS
-    </h1>
-    
-        <h2>Platform Instructions</h2>
-        <p>Get Started : </p>
-        <ul>
-            <li>
-                Welcome to a world of learning and fun! Sign in or create an account to begin your educational journey. Your profile will help you keep track of your achievements and progress.
-            </li>
-        </ul>
-        <p>Explore Educational Games:</p>
-        <ul>
-            <li>
-                Discover a variety of games and quizzes designed to educate you about your rights, important life skills, and more. Choose from different categories and subjects.
-            </li>
-        </ul>
-        <p>How to Play:</p>
-        <ul>
-            <li>
-                Each game and quiz comes with its own set of rules. Click on a game or quiz to read the instructions and start playing. Learning has never been this exciting!
-            </li>
-        </ul>
-        <p>Unlock Achievements:</p>
-        <ul>
-            <li>
-                As you explore, you'll unlock achievements that highlight your knowledge and growth. Celebrate your educational milestones!
-            </li>
-        </ul>
-        <p>Compete in Quizzes:</p>
-        <ul>
-            <li>
-                Discover a variety of games and quizzes designed to educate you about your rights, important life skills, and more. Choose from different categories and subjects.
-            </li>
-        </ul>
-        <p>Educational Missions:</p>
-        <ul>
-            <li>
-                Challenge your knowledge by participating in quizzes. Compete with others and see how well you know your rights and education.
-            </li>
-        </ul>
-        <p>Share Your Ideas:</p>
-        <ul>
-            <li>
-                    We value your feedback. Share your ideas for new lessons, games, and quizzes. Your input helps us improve and create more engaging content.
-            </li>
-        </ul>
-        <p>Stay Informed:</p>
-        <ul>
-            <li>
-                Keep up with the latest educational news, upcoming events, and new lessons on Gamefinity. Learning is a continuous adventure!
-            </li>
-        </ul>
-        <p>Respect and Support:</p>
-        <ul>
-            <li>
-                Treat others with kindness and respect. Follow our guidelines to ensure a safe and friendly environment for all learners.
-            </li>
-        </ul>
-        <p>Ready to Learn?</p>
-        <ul>
-            <li>
-                You're all set to start your educational adventure on  . Play games, challenge your knowledge, and learn about your rights and the power of education.
-            </li>
-        </ul> 
-        <p>Need Help? We're Here:</p>
-        <ul>
-            <li>
-                If you have questions or need assistance with a lesson, visit our Help Center or contact our support team. Learning should always be a positive experience.
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.avif" alt="">
+        </div>
 
-            </li>     
-</div>
-<div id="picture">
-    <div id="pic"></div>
-    <div id="pic1"></div>
-    <div id="pic2"></div>
-</div>
-<div id="footter">
-    <span>Phone : +91 1234567890</span>
-    <span>Designed By Subhash</span>
-    <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
-    <a href="https://github.com/FZRAJPUT">Github</a>
-</div>
+        <div class="navbar-items">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="country-select">
+                <select>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="au">Australia</option>
+                </select>
+            </div>
+
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section with Slideshow -->
+    <section class="home">
+        <div class="slideshow-container">
+
+            <!-- Slide 1 -->
+            <div class="mySlides fade">
+                <img src="./images/bg.jpg" style="width:100%">
+                <div class="text">Welcome to MyBrand</div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <img src="./images/bg2.jpg" style="width:100%">
+                <div class="text">We bring you the best</div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides fade">
+                <img src="./images/bg3.jpg" style="width:100%">
+                <div class="text">Your satisfaction, our priority</div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="mySlides fade">
+                <img src="./images/bg4.jpeg" style="width:100%">
+                <div class="text">Experience quality</div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="mySlides fade">
+                <img src="./images/bg5.webp" style="width:100%">
+                <div class="text">Join us today</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home1">
+        <div class="grid-container">
+    
+            <div class="grid-item">
+                <img src="./images/bg.jpg" alt="Location 1">
+                <div class="details">
+                    <h2>Paris, France</h2>
+                    <p>Visit the Eiffel Tower and enjoy French cuisine.</p>
+                    <p><strong>Price:</strong> $1200</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+    
+            <div class="grid-item">
+                <img src="./images/bg2.jpg" alt="Location 2">
+                <div class="details">
+                    <h2>Kyoto, Japan</h2>
+                    <p>Experience the beauty of traditional temples and cherry blossoms.</p>
+                    <p><strong>Price:</strong> $1500</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+    
+            <div class="grid-item">
+                <img src="./images/bg3.jpg" alt="Location 3">
+                <div class="details">
+                    <h2>New York, USA</h2>
+                    <p>Explore the vibrant city and visit iconic landmarks like the Statue of Liberty.</p>
+                    <p><strong>Price:</strong> $1800</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+    
+            <div class="grid-item">
+                <img src="./images/bg4.jpeg" alt="Location 4">
+                <div class="details">
+                    <h2>Rome, Italy</h2>
+                    <p>Discover ancient history and delicious Italian cuisine.</p>
+                    <p><strong>Price:</strong> $1400</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+    
+            <div class="grid-item">
+                <img src="./images/bg5.webp" alt="Location 5">
+                <div class="details">
+                    <h2>Dubai, UAE</h2>
+                    <p>Enjoy the luxury shopping and desert safaris.</p>
+                    <p><strong>Price:</strong> $1600</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/bg6.webp" alt="Location 5">
+                <div class="details">
+                    <h2>Dubai, UAE</h2>
+                    <p>Enjoy the luxury shopping and desert safaris.</p>
+                    <p><strong>Price:</strong> $1300</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/bg7.jpg" alt="Location 5">
+                <div class="details">
+                    <h2>Dubai, UAE</h2>
+                    <p>Enjoy the luxury shopping and desert safaris.</p>
+                    <p><strong>Price:</strong> $1800</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <img src="./images/bg8.webp" alt="Location 5">
+                <div class="details">
+                    <h2>Dubai, UAE</h2>
+                    <p>Enjoy the luxury shopping and desert safaris.</p>
+                    <p><strong>Price:</strong> $1200</p>
+                    <button>Book now</button>
+                </div>
+            </div>
+    
+        </div>
+    </section>  
+    
+    
+    <div class="container">
+        <div class="header">
+            <h1>User Feedback</h1>
+            <p>See what users have to say and manage your experience</p>
+        </div>
+
+        <div class="feedback-blocks">
+            <!-- User 1 Feedback -->
+            <div class="card">
+                <div class="user-details">
+                    <div class="user-avatar"><img src="./images/pro.png" alt="profile" /></div>
+                    <div class="user-info">
+                        <h3>Jane Doe</h3>
+                        <p>Posted on: September 14, 2024</p>
+                    </div>
+                </div>
+                <p class="feedback-text">
+                    "I love the simplicity of the interface, it's user-friendly and smooth. However, I would suggest adding more customization options."
+                </p>
+                <button class="block-button">Block User</button>
+            </div>
+
+            <!-- User 2 Feedback -->
+            <div class="card">
+                <div class="user-details">
+                    <div class="user-avatar"><img src="./images/pro.png" alt="profile" /></div>
+                    <div class="user-info">
+                        <h3>John Smith</h3>
+                        <p>Posted on: September 12, 2024</p>
+                    </div>
+                </div>
+                <p class="feedback-text">
+                    "The app crashes sometimes, but overall it's a great tool. Keep up the good work!"
+                </p>
+                <button class="block-button">Block User</button>
+            </div>
+
+            <!-- User 3 Feedback -->
+            <div class="card">
+                <div class="user-details">
+                    <div class="user-avatar"><img src="./images/pro.png" alt="profile" /></div>
+                    <div class="user-info">
+                        <h3>Emily Johnson</h3>
+                        <p>Posted on: September 10, 2024</p>
+                    </div>
+                </div>
+                <p class="feedback-text">
+                    "Really enjoying this! The design is modern and sleek. Perfect for what I need."
+                </p>
+                <button class="block-button">Block User</button>
+            </div>
+        </div>
+    </div>
+
+     <footer class="footer">
+        <!-- About Us Section -->
+        <div class="footer-column">
+            <h2>About Us</h2>
+            <p>At Wanderlust Travel Agency, we believe that every journey should be unforgettable. Our expert travel agents are here to craft personalized trips that cater to your interests and desires, whether you're looking for an exotic beach escape or a cultural city adventure.</p>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="footer-column contact-info">
+            <h3>Contact Us</h3>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>Email:</strong> info@wanderlusttravel.com</p>
+            <p><strong>Address:</strong> 123 Traveler's Lane, Adventure City, USA</p>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Travel Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Newsletter Signup & Social Media -->
+        <div class="footer-column">
+            <h3>Join Our Newsletter</h3>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
